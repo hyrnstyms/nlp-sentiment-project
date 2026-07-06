@@ -1,0 +1,31 @@
+# 1. Veri Setleri (GitHub 100MB sınırını aşmamak için)
+data/
+*.csv
+*.xlsx
+
+# 2. Makine Öğrenmesi Modelleri (Binary ve büyük dosyalar)
+models/
+*.pkl
+*.h5
+*.joblib
+
+# 3. Python Önbellek ve Derleme Dosyaları
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 4. Sanal Ortamlar (Virtual Environments)
+venv/
+env/
+.env
+.venv/
+
+# 5. IDE ve Editör Ayarları
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# 6. Jupyter Notebook Önbellekleri
+.ipynb_checkpoints/
